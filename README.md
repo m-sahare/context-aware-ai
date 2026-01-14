@@ -47,3 +47,5 @@ context-aware-ai/
 ├── main.py             # Application entry point
 ├── requirements.txt    # Dependencies
 └── README.md           # Project documentation
+
+### Open index.html directly in the browser. Using Live Server may cause unintended page reloads during interaction.
