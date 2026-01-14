@@ -4,32 +4,17 @@
   <meta charset="UTF-8" />
   <title>Context-Aware AI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <div class="container">
     <h1>Context-Aware AI</h1>
-
-    <!-- Chat Form -->
     <form id="chat-form">
-      <input
-        id="message"
-        type="text"
-        placeholder="Type your message..."
-        autocomplete="off"
-        required
-      />
+      <textarea id="message" placeholder="Type your message..." autocomplete="off" required rows="2"></textarea>
       <button type="submit">Send</button>
     </form>
-
-    <!-- Output -->
     <div id="output"></div>
   </div>
-
-  <!-- Script -->
   <script src="script.js"></script>
 </body>
 </html>

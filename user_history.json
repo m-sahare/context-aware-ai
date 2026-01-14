@@ -1,0 +1,103 @@
+{
+  "user_1": [
+    {
+      "type": "user",
+      "text": "Hey there"
+    },
+    {
+      "type": "ai",
+      "text": "I'm here to chat with you about anything you want!",
+      "intentClass": "intent-default"
+    },
+    {
+      "type": "user",
+      "text": "How are you"
+    },
+    {
+      "type": "ai",
+      "text": "I'm here to chat with you about anything you want!",
+      "intentClass": "intent-default"
+    },
+    {
+      "type": "user",
+      "text": "I have an exam tomorrow"
+    },
+    {
+      "type": "ai",
+      "text": "Don't worry, you can do it! Stay calm and focus.",
+      "intentClass": "intent-comforting"
+    },
+    {
+      "type": "user",
+      "text": "I'm worried"
+    },
+    {
+      "type": "ai",
+      "text": "Don't worry, you can do it! Stay calm and focus.",
+      "intentClass": "intent-comforting"
+    },
+    {
+      "type": "user",
+      "text": "I am feeling hungry"
+    },
+    {
+      "type": "ai",
+      "text": "Sorry, I couldn't process that.",
+      "intentClass": "intent-urgent"
+    },
+    {
+      "type": "user",
+      "text": "Hey there"
+    },
+    {
+      "type": "ai",
+      "text": "Sorry, I couldn't process that.",
+      "intentClass": "intent-urgent"
+    },
+    {
+      "type": "user",
+      "text": "I have an exam tomorrow"
+    },
+    {
+      "type": "ai",
+      "text": "Sorry, I couldn't process that.",
+      "intentClass": "intent-urgent"
+    },
+    {
+      "type": "user",
+      "text": "Hey"
+    },
+    {
+      "type": "ai",
+      "text": "Sorry, I couldn't process that.",
+      "intentClass": "intent-urgent"
+    },
+    {
+      "type": "user",
+      "text": "Hi there"
+    },
+    {
+      "type": "ai",
+      "text": "I'm here to chat with you about anything you want!",
+      "intentClass": "intent-default"
+    },
+    {
+      "type": "user",
+      "text": "I'm sad"
+    },
+    {
+      "type": "ai",
+      "text": "I'm here to chat with you about anything you want!",
+      "intentClass": "intent-default"
+    },
+    {
+      "type": "user",
+      "text": "I have an exam tomorrow"
+    },
+    {
+      "type": "ai",
+      "text": "Don't worry, you can do it! Stay calm and focus.",
+      "intentClass": "intent-comforting"
+    }
+  ]
+}

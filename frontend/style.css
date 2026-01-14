@@ -1,24 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-}
-
-input {
-    padding: 10px;
-    width: 300px;
-}
-
-button {
-    padding: 10px 20px;
-    margin-left: 10px;
-}
-
-#output {
-    margin-top: 30px;
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
-}
+* { box-sizing: border-box; margin:0; padding:0; font-family: 'Segoe UI', sans-serif; }
+body { background: linear-gradient(to right, #89f7fe, #66a6ff); min-height:100vh; display:flex; justify-content:center; align-items:center; }
+.container { background: rgba(255,255,255,0.2); backdrop-filter: blur(15px); border-radius:20px; padding:30px; width:90%; max-width:500px; box-shadow:0 8px 32px rgba(0,0,0,0.2); }
+h1 { text-align:center; margin-bottom:20px; color:#fff; }
+#chat-form { display:flex; gap:10px; margin-bottom:20px; }
+#message { flex:1; padding:10px; border-radius:10px; border:none; resize:none; font-size:1rem; }
+#message:focus { outline:2px solid #66a6ff; }
+button { padding:10px 20px; border-radius:10px; border:none; background-color:#66a6ff; color:white; font-weight:bold; cursor:pointer; transition:0.2s; }
+button:hover { background-color:#3b82f6; }
+#output { max-height:400px; overflow-y:auto; padding-right:10px; display:flex; flex-direction:column; }
+.message { padding:8px 12px; border-radius:12px; margin-bottom:10px; max-width:80%; word-wrap:break-word; }
+.user { background: #ffffff90; align-self:flex-end; text-align:right; color:#000; }
+.ai { background: #66a6ff80; align-self:flex-start; text-align:left; color:#fff; }
+.intent-comforting { background:#90caf9; color:#000; }
+.intent-urgent { background:#ef5350; color:#fff; }
+.intent-fun { background:#ffd54f; color:#000; }
+.intent-default { background:#b0bec5; color:#000; }
+#typing { font-style: italic; color: #fff; }
